@@ -1,0 +1,44 @@
+body{
+  background: radial-gradient(yellow,green,red,orange,blue,purple,violet,black,brown,cyan,darkblue,teal,darkslategrey,grey,darkgrey,pink,maroon,darkgreen,aquamarine,lightgreen,darkred,orangered,gold,silver,white,ghostwhite,navy,chartreuse,chocolate,blanchedalmond,burlywood,darkcyan,crimson,darkorange,darkorchid,darkgrey,darkturquoise,beige,azure,deeppink,magenta,khaki,indianred,indigo,ivory,honeydew,hotpink,darkkhaki,dodgerblue,darkolivegreen,antiquewhite,aliceblue,gainsboro,peru,plum,powderblue,rebeccapurple,lightsalmon,darkslateblue,darkgoldenrod,cadetblue,cornsilk,lawngreen,lavenderblush,lavender,mediumaquamarine,mediumblue,mediumorchid,mediumpurple,mediumseagreen,mediumslateblue,mediumspringgreen,springgreen,mediumturquoise,mediumvioletred,midnightblue,mintcream,midnightblue,mistyrose,moccasin,saddlebrown,salmon,sandybrown,seagreen,seashell,sienna,silver,skyblue,slateblue,slategray,slategrey,snow,steelblue,rosybrown,navajowhite,greenyellow,gray,darksalmon,darkseagreen,deepskyblue,dimgray,dimgrey,lightblue,lemonchiffon,lightcoral,lightcyan,lightgoldenrodyellow,lightgray,lightgreen,lightgrey,lightpink,lightsalmon,lightseagreen,lightskyblue,lightslategray,lightslategrey,lightsteelblue,lightyellow,linen,orchid,olivedrab,olive,oldlace,teal,thistle,tomato,turquoise,yellowgreen,palegoldenrod,palegreen,paleturquoise,palevioletred,papayawhip,peachpuff,peru,plum,floralwhite,orangered);
+}
+
+label,p{
+  background-color:chartreuse ;
+  color:black;
+  font-size: 30px;
+}
+
+h1{
+  font-size: 40px;
+  background-color:dodgerblue;
+  color: gainsboro;
+}
+
+#show_sketches{
+  float: right;
+}
+
+canvas {
+  border: 5px black inherit;
+  border-radius: 20px;
+  animation-name: example;
+  animation-duration: 4s;
+  margin-top: 110px;
+  animation-iteration-count: infinite;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+@keyframes example {
+  from{box-shadow: 1px 1px 50px darkslateblue;}
+  to{box-shadow: 1px 1px 50px darkslategray;}
+}
+
+#timer
+{
+  float: right;
+  margin-right: 40px;
+  font-size:30px;
+}
